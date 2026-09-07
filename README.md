@@ -26,7 +26,3 @@ Report-generation API where slow work happens off the request path: instant 202 
 Aggregates a catalogue via SQL, renders through an HTML template, prints to PDF with headless Chromium. Idempotent — a repeated request returns the existing report instead of duplicating it.
 
 ---
-### Action items before you publish this:
-1. **AI-Interview-Coach repo has real cleanup to do first**: `.wav` recordings and a live SQLite DB are committed under `backend/uploads/`. Strip them from git history (`git rm --cached -r "Ai Interview Coach/backend/uploads"`, `git rm --cached "Ai Interview Coach/backend/interview_coach.db"`, then commit + push) and confirm `.gitignore` actually catches them going forward. Do this before linking the repo anywhere public-facing.
-2. Team names live in the repo's own README, not repeated here — good, keeps this page shorter.
-3. This structure has room to grow — add a new entry under "Featured Work" for CS50W or the billing engine idea whenever those exist, rather than restructuring later.
