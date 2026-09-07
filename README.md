@@ -1,6 +1,6 @@
 # Hi, I'm Hannan
 
-Backend engineering, currently deep in FastAPI + PostgreSQL. CS student at CUI Lahore.
+Backend engineering, currently deep in FastAPI + PostgreSQL. SE student at CUI Lahore.
 
 ## Featured Work
 
